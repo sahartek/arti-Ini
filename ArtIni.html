@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <!----===========FAVICON====-->
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+
+
+    <!--==============REMIX ICONS ============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--==============CSS=====================-->
+    <link rel="stylesheet" href="stylesheet/styles.css">
+   
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <title>ArtiIni</title>
+
+
+</head>
+<body>
+    <header  id="navbar" class="header bg-transp" id="header">
+        <nav class="nav container ">
+            <a href="#" class="nav_logo">
+                <img src="Images/logo.png.png" alt="">
+            </a>
+            <div class="nav__menu " id="nav-menu">
+                <ul class="nav__list">
+                    
+                        <li class="nav__item">
+                            <a href="#Home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#About" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Painting" class="nav__link">Painting</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Writing" class="nav__link">Writing</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__button button--flex"><button type="button">Log in</button></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#signUP"  class="nav__button button--flex"><button type="button">Sign up</button></a>
+                        </li>
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                </div>
+                    
+                   
+            </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            
+        </nav>
+
+    </header>
+    <main class="main">
+        <div class="home__blob">
+            <svg width="926" height="720" viewBox="0 0 926 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H565.328C764.015 0 925.082 161.067 925.082 359.754C925.082 558.441 764.015 719.508 565.328 719.508H462.541C207.087 719.508 0 512.422 0 256.967V0Z" fill="#C49EB7"/>
+             </svg>
+        </div> 
+        <!--=============== HOME ==================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    
+
+                   
+               <!--   <img src="Images/homepic1.jpg" alt="" class="home__img"> -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="Images/homepic1.jpg" alt=""></div>
+                          <div class="swiper-slide"><img src="Images/homepic2.jpg" alt=""></div>
+                          <div class="swiper-slide"><img src="Images/homepic3.jpg" alt=""></div>
+                          <div class="swiper-slide"><img src="Images/homepic4.jpg" alt=""></div>
+                         
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                  
+                    
+                        
+                </div>
+               
+
+                <div class="home__data">
+                    <h6 class="home__subtitle">
+                        Let your art see the light <br>
+                    </h6>
+                    <h1 class="home__title">
+                        The expression of<br> human skill
+                    </h1>
+                    <p class="home__description">Share your incredile creations with an artholic community</p>
+                    <a href="signUP" class="button button--flex">Join the community </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--============= ABOUT  =====================-->
+        <section class="about section container" id="about">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+        </section>
+
+        <!--============= PAINTING ====================-->
+        <section class="painting section container">
+
+        </section>
+
+        <!--============= WRITING ====================-->
+        <section class="writing section container">
+            
+        </section>
+
+    </main>
+
+    <!--============= Login ====================-->
+
+
+    <!--============= Sign UP ====================-->
+
+    <footer></footer>
+
+    <!--==================SCROLL UP=======================-->
+
+
+    <!--==================SCROLL REVEAL===================-->
+    
+
+    <!--==================MAIN JS=========================-->
+    <script src="assets/main.js"></script>
+    !-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
